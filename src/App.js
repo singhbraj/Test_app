@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import ClassCounterOne from './components/ClassCounterOne' ;
+// import HookCounterOne from './components/HookCounterOne'
+// import IntervalClassCounter from './components/IntervalClassCounter'
+// import IntervalHookCounter from './components/IntervalHookCounter'
+// import ParentComp from './components/PureComponent/ParentComp';
+// import RefsDemo from './components/Refs/RefsDemo';
+// import InputRef from './components/Refs/InputRef'
+import FRParentInput from './components/Refs/FRParentInput';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <ClassCounterOne />
+    <HookCounterOne /> */}
+    {/* <IntervalClassCounter />
+    <IntervalHookCounter /> */}
+    {/* <ParentComp /> */}
+    {/* <RefsDemo /> */}
+    {/* <InputRef /> */}
+    <FRParentInput />
     </div>
   );
 }
