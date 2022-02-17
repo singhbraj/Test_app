@@ -7,7 +7,8 @@ import './App.css';
 // import ParentComp from './components/PureComponent/ParentComp';
 // import RefsDemo from './components/Refs/RefsDemo';
 // import InputRef from './components/Refs/InputRef'
-import FRParentInput from './components/Refs/FRParentInput';
+// import FRParentInput from './components/Refs/FRParentInput';
+import ParentComponent from './components/CallbackHook/ParentComponent';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
     {/* <ParentComp /> */}
     {/* <RefsDemo /> */}
     {/* <InputRef /> */}
-    <FRParentInput />
+    {/* <FRParentInput /> */}
+    <ParentComponent />
     </div>
   );
 }
