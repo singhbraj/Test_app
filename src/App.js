@@ -9,7 +9,9 @@ import './App.css';
 // import InputRef from './components/Refs/InputRef'
 // import FRParentInput from './components/Refs/FRParentInput';
 // import ParentComponent from './components/CallbackHook/ParentComponent';
-import ParentOne from './components/optimization/ParentOne';
+// import ParentOne from './components/optimization/ParentOne';
+// import Searching from './components/Searching';
+import Timer from './components/Timer';
 
 
 function App() {
@@ -17,14 +19,16 @@ function App() {
     <div className="App">
     {/* <ClassCounterOne />
     <HookCounterOne /> */}
-    {/* <IntervalClassCounter />
-    <IntervalHookCounter /> */}
+ {/* <IntervalClassCounter />  */}
+    {/* <IntervalHookCounter /> */} 
     {/* <ParentComp /> */}
     {/* <RefsDemo /> */}
     {/* <InputRef /> */}
     {/* <FRParentInput /> */}
     {/* <ParentComponent /> */}
-    <ParentOne />
+    {/* <ParentOne /> */}
+    {/* <Searching /> */}
+    <Timer />
     </div>
   );
 }

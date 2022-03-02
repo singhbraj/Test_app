@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import "./styles.css";
 
-export default function App() {
+
+export default function Searching() {
 
 
   const [users,setUsers] = useState([]);
@@ -11,8 +11,7 @@ export default function App() {
 
   useEffect(()=>{
     getUserList();
-    const res = users.filter(user => user.first_name.includes(query))
-    setSearchResult(res);
+    searchName();
   },[query])
 
   const getUserList = async() =>{
@@ -23,16 +22,18 @@ export default function App() {
     
   }
 
-  // const searchName = () =>{
-
-   
-  // }
+  const searchName = () =>{
+  console.log("Search is called!!")
+    const res = users.filter(user => user.first_name.includes(query))
+    setSearchResult(res);
+  
+  }
 
 
 
 
   return (
-    <div className="App">
+    <div style={{marginTop:'100px'}}>
       <span>Search</span>
       <input type="text" 
       onChange={(e)=>setQuery(e.target.value)}

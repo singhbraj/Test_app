@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './App.css'
+// import './App.css'
 
 
 let interval
@@ -38,6 +38,7 @@ class Timer extends Component {
   }
   
   handleStop=()=>{
+    console.log('Clear interval is called')
     clearInterval(interval)
   }
   handleStart=()=>{
