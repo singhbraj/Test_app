@@ -11,7 +11,9 @@ import './App.css';
 // import ParentComponent from './components/CallbackHook/ParentComponent';
 // import ParentOne from './components/optimization/ParentOne';
 // import Searching from './components/Searching';
-import Timer from './components/Timer';
+// import Timer from './components/Timer';
+// import AutoSearch from "./components/AutoSearch";
+import ReactStateUpdate from "./components/ReactStateUpdate";
 
 
 function App() {
@@ -28,7 +30,10 @@ function App() {
     {/* <ParentComponent /> */}
     {/* <ParentOne /> */}
     {/* <Searching /> */}
-    <Timer />
+    {/* <Timer /> */}
+    {/* <AutoSearch /> */}
+    <ReactStateUpdate />
+
     </div>
   );
 }
