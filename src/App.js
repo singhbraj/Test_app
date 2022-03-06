@@ -13,8 +13,8 @@ import './App.css';
 // import Searching from './components/Searching';
 // import Timer from './components/Timer';
 // import AutoSearch from "./components/AutoSearch";
-import ReactStateUpdate from "./components/ReactStateUpdate";
-
+// import ReactStateUpdate from "./components/ReactStateUpdate";
+import CustomHook from './components/Custom Hook';
 
 function App() {
   return (
@@ -32,8 +32,9 @@ function App() {
     {/* <Searching /> */}
     {/* <Timer /> */}
     {/* <AutoSearch /> */}
-    <ReactStateUpdate />
-
+    {/* <ReactStateUpdate /> */}
+    
+    <CustomHook />
     </div>
   );
 }
