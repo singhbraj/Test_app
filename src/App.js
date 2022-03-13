@@ -1,5 +1,6 @@
 
 import './App.css';
+import TicTacToe from './components/Tic Tac Toe';
 // import ClassCounterOne from './components/ClassCounterOne' ;
 // import HookCounterOne from './components/HookCounterOne'
 // import IntervalClassCounter from './components/IntervalClassCounter'
@@ -14,7 +15,9 @@ import './App.css';
 // import Timer from './components/Timer';
 // import AutoSearch from "./components/AutoSearch";
 // import ReactStateUpdate from "./components/ReactStateUpdate";
-import CustomHook from './components/Custom Hook';
+// import CustomHook from './components/Custom Hook';
+import ReverseString from './components/ReverseAndEvent'
+
 
 function App() {
   return (
@@ -33,8 +36,9 @@ function App() {
     {/* <Timer /> */}
     {/* <AutoSearch /> */}
     {/* <ReactStateUpdate /> */}
-    
-    <CustomHook />
+    {/* <CustomHook /> */}
+    {/* <TicTacToe /> */}
+    <ReverseString />
     </div>
   );
 }
