@@ -9,7 +9,7 @@ const ReverseString = () => {
         return revStr;
     }
 
-    const handleMouseEnter = e =>{
+    const handleMouseEnter = e => {
         // console.log("Mouse event is called!")
         e.target.style.background = "grey"
     }
