@@ -16,7 +16,8 @@ import TicTacToe from './components/Tic Tac Toe';
 // import AutoSearch from "./components/AutoSearch";
 // import ReactStateUpdate from "./components/ReactStateUpdate";
 // import CustomHook from './components/Custom Hook';
-import ReverseString from './components/ReverseAndEvent'
+// import ReverseString from './components/ReverseAndEvent'
+import UseReducer from './components/UseReducer'
 
 
 function App() {
@@ -38,7 +39,8 @@ function App() {
     {/* <ReactStateUpdate /> */}
     {/* <CustomHook /> */}
     {/* <TicTacToe /> */}
-    <ReverseString />
+    {/* <ReverseString /> */}
+    <UseReducer />
     </div>
   );
 }
